@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Trying it out GitHub Pages</title>
-  <meta name="description" content="I wanted to try GitHub pages out for a long time now, but somehow I never got to try it out.">
+  <title>Jekyll template test</title>
+  <meta name="description" content="Code Blocks in Markdown">
 
   <link rel="stylesheet" href="/assets/main.css">
   <link rel="canonical" href="/update/2016/10/23/jekyll-template-test.html">
@@ -61,15 +61,44 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Trying it out GitHub Pages</h1>
+    <h1 class="post-title" itemprop="name headline">Jekyll template test</h1>
     <p class="post-meta"><time datetime="2016-10-23T23:55:47+02:00" itemprop="datePublished">Oct 23, 2016</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>I wanted to try GitHub pages out for a long time now, but somehow I never got to try it out.</p>
+    <h3 id="code-blocks-in-markdown">Code Blocks in Markdown</h3>
 
-<p>Till now I think its pretty simple to set up and <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub page</a> is also great, but I need to get used to markdown.</p>
+<p>This is a sample page for checking how does code highlight work in markdown :)</p>
 
+<div class="language-javascript highlighter-rouge"><pre class="highlight"><code>
+<span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+  <span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="mi">13</span><span class="p">;</span>
+
+  <span class="kd">var</span> <span class="kr">double</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">nr</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span><span class="p">(</span><span class="nx">nr</span> <span class="o">&amp;&amp;</span> <span class="k">typeof</span><span class="p">(</span><span class="nx">nr</span><span class="p">)</span> <span class="o">===</span> <span class="s1">'Number'</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="mi">2</span> <span class="o">*</span> <span class="nx">nr</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="nx">x</span><span class="p">;</span>
+  <span class="p">};</span>
+<span class="p">})();</span>
+
+</code></pre>
+</div>
+
+<p>This was some awesome <code class="highlighter-rouge">JS</code> code add for multiple lines.</p>
+
+<p>Below you can see some <code class="highlighter-rouge">python</code> code:</p>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code>
+<span class="k">class</span> <span class="nc">Math</span>
+
+  <span class="k">def</span> <span class="nf">double</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nr</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">nr</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+      <span class="k">return</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">nr</span>
+
+    <span class="k">return</span> <span class="mi">13</span>
+</code></pre>
+</div>
 
   </div>
 
